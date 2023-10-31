@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1200px){
+    .divname1 h2{
+        font-size: 45px;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .divname1 h2{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .divname1{
+        position: relative;
+        top: 120px;
+        z-index: 2;
+        color: white;
+    }
+    .divinfo1{
+        background-color: rgba(10, 11, 11, 0.75);
+        position: relative;
+        bottom: 100px;
+        padding: 50px;
+    }
+    .divinfo1 h2{
+        text-align: center;
+        font-size: 24px;
+    }
+    .divinfo1 p{
+        font-size: 16px;
+        color: rgb(79, 79, 79);
+        line-height: 2;
+    }
+    .p1{
+        font-size: 18px;
+    }
+    .text1{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 769px){
+    .divname1 h2{
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .divname1{
+        position: relative;
+        top: 120px;
+        z-index: 2;
+        color: white;
+    }
+    .divinfo1 p{
+        font-size: 14px;
+        color: rgb(79, 79, 79);
+        line-height: 2;
+    }
+    .p1{
+        font-size: 16px;
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .text2{
+        font-size: 25px;
+    }
+    .imgsvg1{
+        height: 130px;
+        width: 130px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .divinfo1 p{
+        font-size: 13px;
+        color: rgb(79, 79, 79);
+        line-height: 2;
+    }
+    .divinfo1{
+        bottom: 50px;
+    }
+    .divnamber{
+        font-size: 75px;
+    }
+    .text2{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .divname1 h2{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .divname1{
+        position: relative;
+        top: 100px;
+        z-index: 2;
+        color: white;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .divnamber{
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .divname1 h2{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .divname1{
+        position: relative;
+        top: 100px;
+        z-index: 2;
+        color: white;
+    }
+    .divnamber{
+        font-size: 55px;
+    }
+}
+

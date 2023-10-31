@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: #101112;
+}
+p{
+    font-size: 19px;
+}
+header nav{
+    border-bottom: 2px solid rgb(58, 58, 58);
+    position: fixed !important;
+    z-index: 99;
+    width: 100%;
+}
+header li a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px !important;
+
+}
+header li a:hover{
+    color: #1f9388 !important;
+    transform: 1s;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.logo:hover{
+    color: #1f9388 !important;
+    transform: 1s !important;
+}
+.bg-dark{
+    background-color: #101112 !important;
+}
+path{
+    fill: white !important;
+    margin: 5px !important;
+}
+.imgheader img{
+    width: 100%;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.divname1{
+    position: relative;
+    top: 200px;
+    z-index: 2;
+    color: white;
+}
+.divname1 h2{
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.divinfo1{
+    background-color: rgba(10, 11, 11, 0.75);
+    position: relative;
+    bottom: 100px;
+    padding: 50px;
+}
+.divinfo1 h2{
+    text-align: center;
+}
+.divinfo1 p{
+    color: #727373;
+    line-height: 2;
+}
+.divnamber{
+    color: #1f9388 !important;
+    font-size: 80px;
+}
+.p1{
+    color: #8a8a8b;
+}
+.bg-1{
+    background-color: #1f9388;
+}
+.text2{
+    font-weight: 900;
+}
+.text3{
+    font-weight: 600;
+}
+.text4{
+    color: #1f9388;
+}
+.imgwidth100{
+    width: 100%;
+}
+.imgsvg{
+    opacity: 0.3;
+}
+.imgsvg:hover{
+    transform: scale(1.1 );
+    opacity: 1;
+    transition: 0.5s;
+}
+.carousel{
+    width: 100%;
+}
+.divname2{
+    width: 100%;
+}
+.btn{
+    width: 200px;
+    background-color: #1f9388;
+    color: white;
+}
+.btn:hover{
+    background-color: #2caea1;
+    color: white;
+}
+.row{
+    --bs-gutter-x:0;
+}
+footer{
+    padding-left: 30px;
+}
+footer li a:hover{
+    color: #1f9388 !important;
+    transition: 1s;
+}
+.top{
+    height: 45px;
+    width: 50px;
+    color: #101112;
+    background-color: #2caea1;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    align-items: center;
+    text-align: center;
+    transition: 2s;
+    cursor: pointer;
+    display: none;
+}
+.top:hover{
+    background-color: grey
+}
+.img1{
+    transition: 0.5s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.img1:hover{
+    opacity: 1;
+}
